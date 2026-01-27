@@ -8,11 +8,10 @@
 
 <script setup>
 useSeoMeta({
-  title: 'Denizli Halı Yıkama - Profesyonel Temizlik & Ücretsiz Servis',
-  ogTitle: 'Pandora Halı Yıkama - Denizli',
-  description: 'Denizli halı yıkama, koltuk yıkama ve yerinde temizlik hizmetleri. Merkezefendi ve Pamukkale ilçelerine aynı gün ücretsiz servis imkanı.',
-  ogDescription: 'Denizli\'nin en hijyenik halı yıkama fabrikası. Leke garantili ve sigortalı yıkama.',
-  keywords: 'denizli halı yıkama, denizli koltuk yıkama, pamukkale halı yıkama, merkezefendi halı yıkama, denizli yorgan yıkama, en yakın halı yıkamacı'
+  title: 'Denizli Koltuk ve Halı Yıkama - Pandora Temizlik', // Koltuk kelimesini başa aldık
+  ogTitle: 'Denizli Pandora Temizlik - Profesyonel Koltuk Yıkama',
+  description: 'Denizli\'de yerinde koltuk, yatak ve halı yıkama hizmetleri. İnatçı lekeler için özel solüsyonlar ve güçlü vakum teknolojisi.',
+  keywords: 'denizli koltuk yıkama, denizli yerinde yıkama, koltuk temizliği denizli, pandora temizlik, denizli halı yıkama'
 })
 // Meta tagleri (SEO) buraya ekleyelim
 useHead({

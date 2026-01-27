@@ -20,10 +20,10 @@ export default defineNuxtConfig({
   css: [
     'primeicons/primeicons.css'
   ],
-  site: {
-    url: 'https://www.pandorahaliyikama.com', // BURAYA GERÇEK DOMAIN ADRESİNİZİ YAZIN
-    name: 'Pandora Halı Yıkama Denizli',
-    description: 'Denizli profesyonel halı ve koltuk yıkama hizmetleri. Pamukkale ve Merkezefendi bölgesinde ücretsiz servis.',
+site: {
+    url: 'https://www.denizlipandoratemizlik.com.tr', // <-- YENİ DOMAIN BURAYA
+    name: 'Pandora Temizlik Denizli',
+    description: 'Denizli profesyonel koltuk yıkama, halı yıkama ve yerinde temizlik hizmetleri. Buharlı ve vakumlu makinelerle derinlemesine hijyen.',
     defaultLocale: 'tr',
   },
 
