@@ -43,6 +43,13 @@ export default defineNuxtConfig({
           content: "MktfqoDL8O-CPqEu9v6gW8rsqe37WsTIquuJMp6X9po",
         },
       ],
+      script: [
+        // 1. Google Analytics Kütüphanesi
+        {
+          src: "https://www.googletagmanager.com/gtag/js?id=G-T7ZCB5X1Z3", // <-- KENDİ KODUNUZU YAZIN
+          async: true,
+        },
+      ],
     },
   },
 
