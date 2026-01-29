@@ -40,7 +40,7 @@ export default defineNuxtConfig({
         // Size verilen kodu buraya yapıştırın:
         {
           name: "google-site-verification",
-          content: "BURAYA_GOOGLE_DAN_ALDIĞINIZ_KOD_GELECEK",
+          content: "MktfqoDL8O-CPqEu9v6gW8rsqe37WsTIquuJMp6X9po",
         },
       ],
     },
