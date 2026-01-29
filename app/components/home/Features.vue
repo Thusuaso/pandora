@@ -18,7 +18,7 @@
             class="relative rounded-2xl overflow-hidden border border-slate-700 shadow-2xl"
           >
             <img
-              src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1200"
+              src="/main_page.png"
               alt="Profesyonel Yıkama"
               class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700"
             />
