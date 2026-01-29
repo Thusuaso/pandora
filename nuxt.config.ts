@@ -47,9 +47,6 @@ export default defineNuxtConfig({
   },
 
   sitemap: {
-    sources: [
-      "/api/sitemap", // Eğer ileride dinamik içerik (blog vs) eklerseniz buraya kaynak gösteririz
-    ],
     defaults: {
       changefreq: "daily",
       priority: 0.8,
