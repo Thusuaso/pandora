@@ -4,7 +4,12 @@ import Aura from "@primevue/themes/aura";
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@primevue/nuxt-module", "@nuxtjs/seo"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@primevue/nuxt-module",
+    "@nuxtjs/seo",
+    "@nuxtjs/sitemap",
+  ],
   primevue: {
     options: {
       theme: {
@@ -38,6 +43,17 @@ export default defineNuxtConfig({
           content: "BURAYA_GOOGLE_DAN_ALDIĞINIZ_KOD_GELECEK",
         },
       ],
+    },
+  },
+
+  sitemap: {
+    sources: [
+      "/api/sitemap", // Eğer ileride dinamik içerik (blog vs) eklerseniz buraya kaynak gösteririz
+    ],
+    defaults: {
+      changefreq: "daily",
+      priority: 0.8,
+      lastmod: new Date().toISOString(),
     },
   },
 });
