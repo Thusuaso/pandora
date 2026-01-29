@@ -4,7 +4,7 @@
   </NuxtLayout>
 </template>
 
-<script>
+<script setup>
 // app.vue içine:
 
 useHead({
