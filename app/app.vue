@@ -15,7 +15,7 @@ useHead({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         name: "Denizli Pandora Temizlik",
-        image: "https://denizlipandoratemizlik.com.tr/logo.png", // Logonuzun yolu
+        image: "/pandora_icon.png", // Logonuzun yolu
         "@id": "https://denizlipandoratemizlik.com.tr",
         url: "https://denizlipandoratemizlik.com.tr",
         telephone: "+905530257011", // Telefonunuz
