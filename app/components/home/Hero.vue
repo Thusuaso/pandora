@@ -4,7 +4,7 @@
   >
     <div class="absolute inset-0 z-0">
       <img
-        src="https://images.unsplash.com/photo-1558317374-a354d5f86548?q=80&w=2500"
+        src="/pandora_temizlik_ana_fotograf.png"
         alt="Pandora Hero"
         class="w-full h-full object-cover"
       />
