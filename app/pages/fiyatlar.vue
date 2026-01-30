@@ -14,7 +14,7 @@
         <span
           class="inline-block py-1 px-3 rounded-lg bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold tracking-widest uppercase mb-4"
         >
-          Güncel Liste (2024)
+          Güncel Liste (2026)
         </span>
         <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-6">
           Şeffaf
