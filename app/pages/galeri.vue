@@ -171,6 +171,7 @@
             label="Instagram'da İzle"
             icon="pi pi-instagram"
             class="!bg-[#111827] !border-slate-700 !text-white hover:!bg-slate-800"
+            @click="goToInstagram"
           />
         </div>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -424,5 +425,10 @@ const toggleVideo = (index) => {
       isPlaying.value[index] = false;
     }
   }
+};
+
+const goToInstagram = () => {
+  // '_blank' parametresi sayfayı yeni sekmede açar
+  window.open('https://www.instagram.com/pandora.temizlik/', '_blank');
 };
 </script>

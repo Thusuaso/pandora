@@ -44,7 +44,7 @@
           icon="pi pi-phone" 
           class="!bg-gradient-to-r !from-blue-600 !to-blue-500 hover:!from-blue-500 hover:!to-blue-400 !border-none !text-white !font-bold !rounded-xl !px-5 shadow-lg shadow-blue-900/40 hover:shadow-blue-600/40 transition-all transform hover:-translate-y-0.5" 
           as="a" 
-          href="tel:+905550000000" 
+          href="tel:+905530257011" 
         />
       </template>
     </Menubar>
