@@ -23,7 +23,7 @@ useHead({
         "@type": "LocalBusiness",
         "name": "Pandora Halı ve Koltuk Yıkama",
         "image": "https://www.pandorahaliyikama.com/logo.png", // Logonuzun linki
-        "telephone": "+905550000000",
+        "telephone": "+905530257011",
         "priceRange": "₺₺",
         "address": {
           "@type": "PostalAddress",
