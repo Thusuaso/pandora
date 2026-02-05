@@ -204,7 +204,6 @@ const sofaPrices = ref([
   { name: "Çift Kişilik Yatak", unit: "Adet", price: "600" },
   { name: "Sandalye", unit: "Adet", price: "75" },
 ]);
-
 const otherPrices = ref([
   { name: "Tek Kişilik Yorgan", unit: "Adet", price: "200" },
   { name: "Çift Kişilik Yorgan", unit: "Adet", price: "250" },
