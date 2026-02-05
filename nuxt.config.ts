@@ -4,7 +4,13 @@ import Aura from "@primevue/themes/aura";
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@primevue/nuxt-module", "@nuxtjs/seo", "@nuxtjs/sitemap", "@nuxt/image"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@primevue/nuxt-module",
+    "@nuxtjs/seo",
+    "@nuxtjs/sitemap",
+    "@nuxt/image",
+  ],
   primevue: {
     options: {
       theme: {
@@ -39,9 +45,8 @@ export default defineNuxtConfig({
         },
       ],
       script: [
-        // 1. Google Analytics Kütüphanesi
         {
-          src: "https://www.googletagmanager.com/gtag/js?id=G-T7ZCB5X1Z3", // <-- KENDİ KODUNUZU YAZIN
+          src: "https://www.googletagmanager.com/gtag/js?id=G-T7ZCB5X1Z3",
           async: true,
         },
       ],
