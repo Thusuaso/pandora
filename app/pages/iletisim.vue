@@ -195,8 +195,10 @@
 <script setup>
 import { ref } from "vue";
 
-useHead({
-  title: "İletişim - Pandora Halı Yıkama",
+useSeoMeta({
+  title: "İletişim - Fiyat Teklifi Al | Pandora Temizlik",
+  description:
+    "Denizli koltuk yıkama fiyatları için bizimle iletişime geçin. WhatsApp üzerinden anında fiyat teklifi.",
 });
 const loading = ref(false);
 const showSuccess = ref(false); // Başarılı mesajını göstermek için

@@ -198,7 +198,7 @@ const carpetPrices = ref([
 ]);
 
 const sofaPrices = ref([
-  { name: "Oturma Grubu (3+2+1+1)", unit: "Takım", price: "1000 - 5000" },
+  { name: "Oturma Grubu (3+2+1+1)", unit: "Takım", price: "1500 - 5000" },
   { name: "Köşe Koltuk (L Tipi)", unit: "Adet", price: "900" },
   { name: "Tek Kişilik Yatak", unit: "Adet", price: "400" },
   { name: "Çift Kişilik Yatak", unit: "Adet", price: "600" },
