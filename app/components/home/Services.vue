@@ -235,7 +235,7 @@ const services = ref([
       "Güçlü vakum makineleri ile koltuklarınızın süngerine kadar inen hijyen.",
     fullDesc:
       "Koltuklarınızı evinizden çıkarmadan, güçlü vakum makineleri ve leke çıkarıcı özel solüsyonlarla yıkıyoruz. Kumaş yapısına göre fırça sertliği ayarlanır.",
-    priceRange: "1000₺ - 5000₺ / Takım",
+    priceRange: "1500₺ - 5000₺ / Takım",
     duration: "2-3 Saat",
     image: "/images/ai/denizli-pandora-koltuk-yikama-örnek.png",
     icon: "pi pi-home",

@@ -399,6 +399,10 @@ const galleryVideos = ref([
     src: "/videos/yatak/denizli_pandora_temizlik_yatak_yikama_3.mp4",
     title: "Yatak Temizliğinde Çocuk Güvenliği",
   },
+    {
+    src: "/videos/koltuk/denizli_pandora_temizlik_koltuk_yikama_8.mp4",
+    title: "Profesyonel Son Dokunuşlar",
+  },
 ]);
 
 const videoRefs = ref([]); // HTML'deki video elementlerini tutar
