@@ -172,7 +172,7 @@
               icon="pi pi-whatsapp"
               class="!bg-green-600 !border-none hover:!bg-green-500 !text-white !font-bold"
               as="a"
-              href="https://wa.me/905550000000"
+              href="https://wa.me/905530257011"
               target="_blank"
             />
           </div>
