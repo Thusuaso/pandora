@@ -1,6 +1,5 @@
 // nuxt.config.ts
 import Aura from "@primevue/themes/aura";
-
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
@@ -16,7 +15,7 @@ export default defineNuxtConfig({
       theme: {
         preset: Aura,
         options: {
-          darkModeSelector: ".fake-dark-mode", // Sadece aydınlık mod istiyorsak bunu ekleriz
+          darkModeSelector: ".fake-dark-mode",
         },
       },
       ripple: true,
@@ -25,20 +24,18 @@ export default defineNuxtConfig({
   },
   css: ["primeicons/primeicons.css"],
   site: {
-    url: "https://www.denizlipandoratemizlik.com.tr", // <-- YENİ DOMAIN BURAYA
+    url: "https://www.denizlipandoratemizlik.com.tr",
     name: "Pandora Temizlik Denizli",
     description:
       "Denizli profesyonel koltuk yıkama, halı yıkama ve yerinde temizlik hizmetleri. Buharlı ve vakumlu makinelerle derinlemesine hijyen.",
     defaultLocale: "tr",
   },
-
   app: {
     head: {
-      htmlAttrs: { lang: "tr" }, // Sitenin Türkçe olduğunu belirtir
+      htmlAttrs: { lang: "tr" },
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
       meta: [
-        // Size verilen kodu buraya yapıştırın:
         {
           name: "google-site-verification",
           content: "MktfqoDL8O-CPqEu9v6gW8rsqe37WsTIquuJMp6X9po",
@@ -52,8 +49,8 @@ export default defineNuxtConfig({
       ],
     },
   },
-
   sitemap: {
+    images: true,
     defaults: {
       changefreq: "daily",
       priority: 0.8,
