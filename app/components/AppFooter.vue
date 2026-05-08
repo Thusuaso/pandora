@@ -10,23 +10,42 @@
       <div class="flex flex-wrap justify-center gap-3 text-sm text-slate-400">
         <span
           class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default"
-          >Merkezefendi Halı Yıkama</span
+          ><NuxtLink to="/merkezefendi-koltuk-yikama">Merkezefendi Koltuk Yıkama</NuxtLink></span
         >
         <span
           class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default"
-          >Pamukkale Halı Yıkama</span
+          >
+          <NuxtLink to="/pamukkale-hali-yikama">Pamukkale Halı Yıkama</NuxtLink>
+          </span
+        >
+                <span
+          class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default"
+          >
+                    <NuxtLink to="/denizli-yatak-yikama">Denizli Yatak Yıkama</NuxtLink>
+          
+          </span
         >
         <span
           class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default"
-          >Kınıklı Koltuk Yıkama</span
+          >
+          
+                                <NuxtLink to="/kinikli-koltuk-yikama">Kınıklı Koltuk Yıkama</NuxtLink>
+
+          </span
         >
         <span
           class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default"
-          >Çınar Mahallesi</span
+          >
+            <NuxtLink to="/cinar-mahallesi-koltuk-yikama">Çınar Mahallesi</NuxtLink>
+          
+          </span
         >
         <span
           class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default"
-          >Bağbaşı Halı Yıkama</span
+          >
+                        <NuxtLink to="/bagbasi-hali-yikama">Bağbaşı Halı Yıkama</NuxtLink>
+
+          </span
         >
         <span
           class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default"
