@@ -38,7 +38,7 @@ export default defineNuxtConfig({
           darkModeSelector: ".fake-dark-mode",
         },
       },
-      ripple: true,
+      ripple: false,
     },
     autoImport: true,
     // ✅ Sadece kullandığın componentler — TBT düşer
@@ -92,7 +92,8 @@ export default defineNuxtConfig({
       script: [
         {
           src: "https://www.googletagmanager.com/gtag/js?id=G-T7ZCB5X1Z3",
-          async: true,
+          defer: true,
+          tagPosition: "bodyClose",
         },
       ],
       // ✅ PrimeIcons font-display: swap — inline olarak da ekle

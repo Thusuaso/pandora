@@ -32,7 +32,6 @@
         <NuxtLink
           v-if="item.route"
           :to="item.route"
-          v-ripple
           class="flex items-center px-4 py-2 mx-1 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-all duration-200"
           active-class="!text-blue-400 !bg-blue-500/10 font-semibold"
         >
@@ -43,7 +42,6 @@
 
         <a
           v-else
-          v-ripple
           :href="item.url"
           target="_blank"
           class="flex items-center px-4 py-2 mx-1 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-all duration-200"
