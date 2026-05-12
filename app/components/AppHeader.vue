@@ -41,7 +41,7 @@
           <span class="ml-2 text-sm font-medium">{{ item.label }}</span>
         </NuxtLink>
 
-        
+        <a
           v-else
           v-ripple
           :href="item.url"
@@ -55,7 +55,7 @@
 
       <template #end>
         <!-- ✅ pi pi-phone yerine SVG — kritik CLS kaynağıydı -->
-        
+        <a
           href="tel:+905530257011"
           class="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white font-bold rounded-xl px-5 py-2 shadow-lg shadow-blue-900/40 hover:shadow-blue-600/40 transition-all transform hover:-translate-y-0.5 text-sm no-underline"
         >
