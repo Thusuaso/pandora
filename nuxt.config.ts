@@ -10,10 +10,13 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     "@nuxtjs/sitemap",
     "@nuxt/image",
-    "@vercel/analytics",
   ],
 
-  // ✅ YENİ: Image modülü config
+  // ✅ CSS'i inline'a çek — entry.css render blocking zincirini kır
+  experimental: {
+    inlineSSRStyles: true,
+  },
+
   image: {
     quality: 80,
     format: ["webp", "png"],
@@ -38,18 +41,22 @@ export default defineNuxtConfig({
       ripple: true,
     },
     autoImport: true,
+    // ✅ Sadece kullandığın componentler — TBT düşer
     components: {
-      include: ["Button", "Dialog", "Toast"],
+      include: ["Button", "Menubar"],
     },
   },
 
-  css: ["primeicons/primeicons.css"],
+  css: [
+    "primeicons/primeicons.css",
+    "~/assets/css/primeicons-override.css", // ✅ font-display: swap
+  ],
 
   site: {
     url: "https://www.denizlipandoratemizlik.com.tr",
     name: "Pandora Temizlik Denizli",
     description:
-      "Denizli profesyonel koltuk yıkama, halı yıkama ve yerinde temizlik hizmetleri. Buharlı ve vakumlu makinelerle derinlemesine hijyen.",
+      "Denizli profesyonel koltuk yıkama, halı yıkama ve yerinde temizlik hizmetleri.",
     defaultLocale: "tr",
   },
 
@@ -58,26 +65,40 @@ export default defineNuxtConfig({
       htmlAttrs: { lang: "tr" },
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
+      link: [
+        // ✅ PrimeIcons font'unu preload et — CSS'ten keşfedilmesini bekleme
+        {
+          rel: "preload",
+          as: "font",
+          type: "font/woff2",
+          href: "/_nuxt/primeicons.C6QP2o4f.woff2",
+          crossorigin: "anonymous",
+        },
+        // ✅ Hero görsel preload
+        {
+          rel: "preload",
+          as: "image",
+          type: "image/webp",
+          href: "/_ipx/f_webp&q_80&w_1920/pandora_temizlik_ana_fotograf.png",
+          fetchpriority: "high",
+        },
+      ],
       meta: [
         {
           name: "google-site-verification",
           content: "MktfqoDL8O-CPqEu9v6gW8rsqe37WsTIquuJMp6X9po",
         },
       ],
-      // ✅ YENİ: Hero görsel preload
-      link: [
-        {
-          rel: "preload",
-          as: "image",
-          href: "/_ipx/f_webp&q_80&w_1920/pandora_temizlik_ana_fotograf.webp",
-          type: "image/webp",
-          fetchpriority: "high",
-        },
-      ],
       script: [
         {
           src: "https://www.googletagmanager.com/gtag/js?id=G-T7ZCB5X1Z3",
           async: true,
+        },
+      ],
+      // ✅ PrimeIcons font-display: swap — inline olarak da ekle
+      style: [
+        {
+          innerHTML: `@font-face{font-family:"primeicons";src:url("/_nuxt/primeicons.C6QP2o4f.woff2") format("woff2");font-display:swap;font-weight:normal;font-style:normal;}`,
         },
       ],
     },
