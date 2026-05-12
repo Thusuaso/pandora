@@ -227,7 +227,7 @@ useSeoMeta({
   ogTitle: 'Çınar Mahallesi Koltuk ve Sandalye Yıkama - Pandora Temizlik',
   ogDescription: 'Çınar Mahallesi\'nde koltuk, sandalye, berjer ve yatak yıkama. Ücretsiz servis, leke garantisi.',
   ogUrl: 'https://www.denizlipandoratemizlik.com.tr/cinar-mahallesi-koltuk-yikama',
-  ogImage: 'https://www.denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.png',
+  ogImage: 'https://www.denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.webp',
   ogType: 'website',
   robots: 'index, follow'
 })

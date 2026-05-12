@@ -14,7 +14,7 @@ useSeoMeta({
   ogDescription: 'Denizli\'de yerinde koltuk, yatak ve halı yıkama hizmetleri. İnatçı lekeler için özel solüsyonlar ve güçlü vakum teknolojisi.',
   ogType: 'website',
   ogUrl: 'https://denizlipandoratemizlik.com.tr',
-  ogImage: 'https://denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.png',
+  ogImage: 'https://denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.webp',
   twitterCard: 'summary_large_image',
   twitterTitle: 'Denizli Koltuk ve Halı Yıkama - Pandora Temizlik',
   twitterDescription: 'Denizli\'de yerinde koltuk, yatak ve halı yıkama hizmetleri.',

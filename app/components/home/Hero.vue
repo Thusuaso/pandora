@@ -3,11 +3,21 @@
     class="relative h-[700px] flex items-center justify-center text-center text-white overflow-hidden"
   >
     <div class="absolute inset-0 z-0">
-      <img
-        src="/pandora_temizlik_ana_fotograf.png"
-        alt="Pandora Hero"
+      <NuxtImg
+        src="/pandora_temizlik_ana_fotograf.webp"
+        alt="Denizli Pandora Temizlik - Profesyonel Koltuk ve Halı Yıkama"
         class="w-full h-full object-cover"
+        width="1920"
+        height="700"
+        fetchpriority="high"
+        loading="eager"
+        format="webp"
+        quality="80"
+        sizes="100vw"
+        preload
       />
+
+      
       <div class="absolute inset-0 bg-slate-900/70"></div>
       <div
         class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#0f172a] to-transparent"

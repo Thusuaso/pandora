@@ -229,7 +229,7 @@ useSeoMeta({
   ogTitle: 'Bağbaşı Halı Yıkama - Pandora Temizlik',
   ogDescription: 'Bağbaşı\'nda profesyonel halı yıkama. Ücretsiz servis, kapıdan alım, aynı gün teslimat.',
   ogUrl: 'https://www.denizlipandoratemizlik.com.tr/bagbasi-hali-yikama',
-  ogImage: 'https://www.denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.png',
+  ogImage: 'https://www.denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.webp',
   ogType: 'website',
   robots: 'index, follow'
 })

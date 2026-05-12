@@ -156,7 +156,7 @@ useSeoMeta({
   ogTitle: 'Merkezefendi Koltuk Yıkama - Pandora Temizlik',
   ogDescription: 'Merkezefendi\'de yerinde koltuk yıkama hizmeti. Ücretsiz servis, leke çıkarma garantisi.',
   ogUrl: 'https://www.denizlipandoratemizlik.com.tr/merkezefendi-koltuk-yikama',
-  ogImage: 'https://www.denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.png',
+  ogImage: 'https://www.denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.webp',
   ogType: 'website',
   robots: 'index, follow'
 })

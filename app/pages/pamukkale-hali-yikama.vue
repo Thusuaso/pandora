@@ -157,7 +157,7 @@ useSeoMeta({
   ogTitle: 'Pamukkale Halı Yıkama - Pandora Temizlik',
   ogDescription: 'Pamukkale\'de profesyonel halı yıkama hizmeti. Ücretsiz servis, aynı gün teslimat.',
   ogUrl: 'https://www.denizlipandoratemizlik.com.tr/pamukkale-hali-yikama',
-  ogImage: 'https://www.denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.png',
+  ogImage: 'https://www.denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.webp',
   ogType: 'website',
   robots: 'index, follow'
 })

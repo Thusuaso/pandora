@@ -190,7 +190,7 @@ useSeoMeta({
   ogTitle: 'Denizli Yatak Yıkama - Pandora Temizlik',
   ogDescription: 'Denizli\'de yerinde yatak yıkama. Mayt ve bakterileri %99 temizliyoruz. Ücretsiz servis.',
   ogUrl: 'https://www.denizlipandoratemizlik.com.tr/denizli-yatak-yikama',
-  ogImage: 'https://www.denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.png',
+  ogImage: 'https://www.denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.webp',
   ogType: 'website',
   robots: 'index, follow'
 })

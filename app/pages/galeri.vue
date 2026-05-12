@@ -47,11 +47,19 @@
             style="height: 400px"
           >
             <div class="absolute inset-0 w-full h-full">
-              <img
+
+                           <NuxtImg
                 src="/images/koltuk/denizli_pandora_temizlik_koltuk_yikama_10_sonrasi.jpg"
                 class="absolute inset-0 w-full h-full object-cover"
-                draggable="false"
-              />
+  width="600"
+  height="400"
+  loading="lazy"
+  format="webp"
+  quality="75"
+/>
+
+
+
               <div
                 class="absolute top-4 right-4 bg-green-600/90 text-white text-xs font-bold px-3 py-1 rounded-full z-10"
               >
@@ -62,11 +70,18 @@
                 class="absolute inset-0 w-full h-full overflow-hidden"
                 :style="{ width: slider1 + '%' }"
               >
-                <img
-                  src="/images/koltuk/denizli_pandora_temizlik_koltuk_yikama_10_once.jpg"
+
+              <NuxtImg
+                   src="/images/koltuk/denizli_pandora_temizlik_koltuk_yikama_10_once.jpg"
                   class="absolute inset-0 w-full max-w-none h-full object-cover filter"
-                  draggable="false"
-                />
+  alt="Detaylı Halı Yıkama"
+  width="600"
+  height="400"
+  loading="lazy"
+  format="webp"
+  quality="75"
+/>
+
                 <div
                   class="absolute top-4 left-4 bg-red-600/90 text-white text-xs font-bold px-3 py-1 rounded-full z-10"
                 >
@@ -102,11 +117,17 @@
             style="height: 400px"
           >
             <div class="absolute inset-0 w-full h-full">
-              <img
+
+                           <NuxtImg
                 src="/images/sandalye/denizli_pandora_temizlik_sandalye_sonra_1.webp"
                 class="absolute inset-0 w-full h-full object-cover"
-                draggable="false"
-              />
+  width="600"
+  height="400"
+  loading="lazy"
+  format="webp"
+  quality="75"
+/>
+
               <div
                 class="absolute top-4 right-4 bg-green-600/90 text-white text-xs font-bold px-3 py-1 rounded-full z-10"
               >
@@ -117,11 +138,16 @@
                 class="absolute inset-0 w-full h-full overflow-hidden"
                 :style="{ width: slider2 + '%' }"
               >
-                <img
-                  src="/images/sandalye/denizli_pandora_temizlik_sandalye_once_1.webp"
+                           <NuxtImg
+                   src="/images/sandalye/denizli_pandora_temizlik_sandalye_once_1.webp"
                   class="absolute inset-0 w-full max-w-none h-full object-cover filter"
-                  draggable="false"
-                />
+  width="600"
+  height="400"
+  loading="lazy"
+  format="webp"
+  quality="75"
+/>
+
                 <div
                   class="absolute top-4 left-4 bg-red-600/90 text-white text-xs font-bold px-3 py-1 rounded-full z-10"
                 >

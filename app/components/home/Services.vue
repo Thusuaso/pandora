@@ -38,12 +38,19 @@
             <div
               class="absolute inset-0 bg-gradient-to-t from-[#111827] via-transparent to-transparent z-10 opacity-80"
             ></div>
-
-            <img
-              :src="service.image"
-              :alt="service.title"
+                        <NuxtImg
               class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700 ease-in-out"
-            />
+
+              :src="service.image"
+
+              :alt="service.title"
+  width="600"
+  height="400"
+  loading="lazy"
+  format="webp"
+  quality="75"
+/>
+
 
             <div
               class="absolute top-4 right-4 z-20 bg-[#0B0F19]/80 backdrop-blur-md px-3 py-1 rounded-lg text-xs font-bold text-blue-400 border border-slate-700 shadow-lg"
@@ -119,10 +126,18 @@
           <div
             class="h-64 md:h-full rounded-xl overflow-hidden border border-slate-700 relative group"
           >
-            <img
+
+             <NuxtImg
               :src="selectedService.image"
               class="w-full h-full object-cover"
-            />
+  width="600"
+  height="400"
+  loading="lazy"
+  format="webp"
+  quality="75"
+/>
+
+
             <div
               class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"
             ></div>

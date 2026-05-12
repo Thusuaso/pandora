@@ -17,11 +17,18 @@
           <div
             class="relative rounded-2xl overflow-hidden border border-slate-700 shadow-2xl"
           >
-            <img
-              src="/main_page.png"
-              alt="Profesyonel Yıkama"
-              class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700"
-            />
+
+            <NuxtImg
+                          class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700"
+
+  src="/main_page.webp"
+  alt="Profesyonel Yıkama"
+  width="600"
+  height="400"
+  loading="lazy"
+  format="webp"
+  quality="75"
+/>
             <div
               class="absolute inset-0 bg-slate-900/20 group-hover:bg-transparent transition-colors"
             ></div>

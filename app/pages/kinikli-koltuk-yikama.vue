@@ -183,7 +183,7 @@ useSeoMeta({
   ogTitle: 'Kınıklı Koltuk Yıkama - Pandora Temizlik',
   ogDescription: 'Kınıklı\'da yerinde koltuk yıkama. Ücretsiz servis, leke çıkarma garantisi.',
   ogUrl: 'https://www.denizlipandoratemizlik.com.tr/kinakli-koltuk-yikama',
-  ogImage: 'https://www.denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.png',
+  ogImage: 'https://www.denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.webp',
   ogType: 'website',
   robots: 'index, follow'
 })
