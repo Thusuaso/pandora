@@ -3,7 +3,6 @@ import Aura from "@primevue/themes/aura";
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
-
   modules: [
     "@nuxtjs/tailwindcss",
     "@primevue/nuxt-module",
@@ -12,7 +11,6 @@ export default defineNuxtConfig({
     "@nuxt/image",
   ],
 
-  // ✅ CSS'i inline'a çek — entry.css render blocking zincirini kır
   experimental: {
     inlineSSRStyles: true,
   },
@@ -41,16 +39,12 @@ export default defineNuxtConfig({
       ripple: false,
     },
     autoImport: true,
-    // ✅ Sadece kullandığın componentler — TBT düşer
     components: {
       include: ["Button", "Menubar"],
     },
   },
 
-  css: [
-    "primeicons/primeicons.css",
-    "~/assets/css/primeicons-override.css", // ✅ font-display: swap
-  ],
+  css: ["primeicons/primeicons.css", "~/assets/css/primeicons-override.css"],
 
   site: {
     url: "https://www.denizlipandoratemizlik.com.tr",
@@ -66,7 +60,6 @@ export default defineNuxtConfig({
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
       link: [
-        // ✅ PrimeIcons font'unu preload et — CSS'ten keşfedilmesini bekleme
         {
           rel: "preload",
           as: "font",
@@ -74,7 +67,6 @@ export default defineNuxtConfig({
           href: "/_nuxt/primeicons.C6QP2o4f.woff2",
           crossorigin: "anonymous",
         },
-        // ✅ Hero görsel preload
         {
           rel: "preload",
           as: "image",
@@ -95,8 +87,118 @@ export default defineNuxtConfig({
           defer: true,
           tagPosition: "bodyClose",
         },
+        // ✅ LocalBusiness Schema
+        {
+          type: "application/ld+json",
+          innerHTML: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            name: "Pandora Temizlik Denizli",
+            description:
+              "Denizli Merkezefendi ve Pamukkale'de yerinde koltuk yıkama, halı yıkama, yatak yıkama ve stor perde temizliği. %100 organik şampuan, leke çıkarma garantisi.",
+            image:
+              "https://www.denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.png",
+            logo: "https://www.denizlipandoratemizlik.com.tr/pandora_icon.png",
+            telephone: "+905530257011",
+            url: "https://www.denizlipandoratemizlik.com.tr",
+            email: "",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Denizli",
+              addressRegion: "Denizli",
+              postalCode: "20000",
+              addressCountry: "TR",
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: 37.7765,
+              longitude: 29.0864,
+            },
+            areaServed: [
+              { "@type": "City", name: "Denizli" },
+              { "@type": "AdministrativeArea", name: "Merkezefendi" },
+              { "@type": "AdministrativeArea", name: "Pamukkale" },
+              { "@type": "AdministrativeArea", name: "Kınıklı" },
+              { "@type": "AdministrativeArea", name: "Bağbaşı" },
+            ],
+            openingHoursSpecification: [
+              {
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                ],
+                opens: "08:00",
+                closes: "20:00",
+              },
+            ],
+            priceRange: "₺₺",
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Temizlik Hizmetleri",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Yerinde Koltuk Yıkama",
+                    url: "https://www.denizlipandoratemizlik.com.tr/#hizmetler",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Halı Yıkama",
+                    url: "https://www.denizlipandoratemizlik.com.tr/#hizmetler",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Yatak Yıkama",
+                    url: "https://www.denizlipandoratemizlik.com.tr/denizli-yatak-yikama",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Stor ve Zebra Perde Yıkama",
+                    url: "https://www.denizlipandoratemizlik.com.tr/#hizmetler",
+                  },
+                },
+              ],
+            },
+            contactPoint: [
+              {
+                "@type": "ContactPoint",
+                telephone: "+905530257011",
+                contactType: "customer service",
+                areaServed: "TR",
+                availableLanguage: "Turkish",
+                contactOption: "TollFree",
+              },
+              {
+                "@type": "ContactPoint",
+                telephone: "+905539409093",
+                contactType: "customer service",
+                areaServed: "TR",
+                availableLanguage: "Turkish",
+              },
+            ],
+            sameAs: [
+              "https://www.instagram.com/pandora.temizlik/",
+              "https://www.facebook.com/people/Pandora-Temizlik/pfbid02zwfYs71G1HUMBKK7pfzw22Bg5RYfKjHutEwbhtVhD5E7sEX4ZvsJJn3XpDNntxtel/",
+            ],
+          }),
+        },
       ],
-      // ✅ PrimeIcons font-display: swap — inline olarak da ekle
       style: [
         {
           innerHTML: `@font-face{font-family:"primeicons";src:url("/_nuxt/primeicons.C6QP2o4f.woff2") format("woff2");font-display:swap;font-weight:normal;font-style:normal;}`,
