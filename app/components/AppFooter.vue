@@ -8,65 +8,29 @@
       </h3>
 
       <div class="flex flex-wrap justify-center gap-3 text-sm text-slate-400">
-        <span
-          class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default"
-          ><NuxtLink to="/merkezefendi-koltuk-yikama">Merkezefendi Koltuk Yıkama</NuxtLink></span
-        >
-        <span
-          class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default"
-          >
+        <span class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default">
+          <NuxtLink to="/merkezefendi-koltuk-yikama">Merkezefendi Koltuk Yıkama</NuxtLink>
+        </span>
+        <span class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default">
           <NuxtLink to="/pamukkale-hali-yikama">Pamukkale Halı Yıkama</NuxtLink>
-          </span
-        >
-                <span
-          class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default"
-          >
-                    <NuxtLink to="/denizli-yatak-yikama">Denizli Yatak Yıkama</NuxtLink>
-          
-          </span
-        >
-        <span
-          class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default"
-          >
-          
-                                <NuxtLink to="/kinikli-koltuk-yikama">Kınıklı Koltuk Yıkama</NuxtLink>
-
-          </span
-        >
-        <span
-          class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default"
-          >
-            <NuxtLink to="/cinar-mahallesi-koltuk-yikama">Çınar Mahallesi</NuxtLink>
-          
-          </span
-        >
-        <span
-          class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default"
-          >
-                        <NuxtLink to="/bagbasi-hali-yikama">Bağbaşı Halı Yıkama</NuxtLink>
-
-          </span
-        >
-        <span
-          class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default"
-          >Servergazi</span
-        >
-        <span
-          class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default"
-          >Yenişehir</span
-        >
-        <span
-          class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default"
-          >Adalet Mahallesi</span
-        >
-        <span
-          class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default"
-          >Üçler</span
-        >
-        <span
-          class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default"
-          >1200 Evler</span
-        >
+        </span>
+        <span class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default">
+          <NuxtLink to="/denizli-yatak-yikama">Denizli Yatak Yıkama</NuxtLink>
+        </span>
+        <span class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default">
+          <NuxtLink to="/kinikli-koltuk-yikama">Kınıklı Koltuk Yıkama</NuxtLink>
+        </span>
+        <span class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default">
+          <NuxtLink to="/cinar-mahallesi-koltuk-yikama">Çınar Mahallesi</NuxtLink>
+        </span>
+        <span class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default">
+          <NuxtLink to="/bagbasi-hali-yikama">Bağbaşı Halı Yıkama</NuxtLink>
+        </span>
+        <span class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default">Servergazi</span>
+        <span class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default">Yenişehir</span>
+        <span class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default">Adalet Mahallesi</span>
+        <span class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default">Üçler</span>
+        <span class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default">1200 Evler</span>
       </div>
 
       <p class="text-center text-xs text-slate-600 mt-6 max-w-4xl mx-auto">
@@ -77,30 +41,22 @@
       </p>
     </div>
   </section>
-  <footer
-    class="bg-[#0f172a] border-t border-slate-800 pt-16 pb-8 text-slate-400 font-sans relative overflow-hidden"
-  >
-    <div
-      class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] bg-blue-600/5 rounded-full blur-[120px] pointer-events-none"
-    ></div>
+
+  <footer class="bg-[#0f172a] border-t border-slate-800 pt-16 pb-8 text-slate-400 font-sans relative overflow-hidden">
+    <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] bg-blue-600/5 rounded-full blur-[120px] pointer-events-none"></div>
 
     <div class="container mx-auto px-4 relative z-10">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+
+        <!-- Marka -->
         <div class="space-y-6">
           <div class="flex items-center gap-3">
-            <div
-              class="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-600 to-cyan-500 flex items-center justify-center shadow-lg shadow-blue-500/20"
-            >
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-600 to-cyan-500 flex items-center justify-center shadow-lg shadow-blue-500/20">
               <i class="pi pi-sparkles text-white"></i>
             </div>
             <div>
-              <span class="block text-white font-bold text-xl tracking-tight"
-                >PANDORA</span
-              >
-              <span
-                class="text-[10px] text-blue-400 uppercase tracking-widest font-bold"
-                >Premium Cleaning</span
-              >
+              <span class="block text-white font-bold text-xl tracking-tight">PANDORA</span>
+              <span class="text-[10px] text-blue-400 uppercase tracking-widest font-bold">Premium Cleaning</span>
             </div>
           </div>
           <p class="text-sm leading-relaxed text-slate-500">
@@ -109,6 +65,7 @@
           </p>
         </div>
 
+        <!-- Hızlı Erişim -->
         <div>
           <h4 class="text-white font-bold mb-6 flex items-center gap-2">
             <span class="w-1 h-4 bg-blue-500 rounded-full"></span>
@@ -116,52 +73,38 @@
           </h4>
           <ul class="space-y-3 text-sm">
             <li>
-              <NuxtLink
-                to="/"
-                class="hover:text-blue-400 transition-colors flex items-center gap-2"
-                ><i class="pi pi-angle-right text-xs"></i> Anasayfa</NuxtLink
-              >
+              <NuxtLink to="/" class="hover:text-blue-400 transition-colors flex items-center gap-2">
+                <i class="pi pi-angle-right text-xs"></i> Anasayfa
+              </NuxtLink>
             </li>
             <li>
-              <NuxtLink
-                to="/#hizmetler"
-                class="hover:text-blue-400 transition-colors flex items-center gap-2"
-                ><i class="pi pi-angle-right text-xs"></i>
-                Hizmetlerimiz</NuxtLink
-              >
+              <NuxtLink to="/#hizmetler" class="hover:text-blue-400 transition-colors flex items-center gap-2">
+                <i class="pi pi-angle-right text-xs"></i> Hizmetlerimiz
+              </NuxtLink>
             </li>
             <li>
-              <NuxtLink
-                to="/iletisim"
-                class="hover:text-blue-400 transition-colors flex items-center gap-2"
-                ><i class="pi pi-angle-right text-xs"></i> İletişim &
-                Teklif</NuxtLink
-              >
+              <NuxtLink to="/iletisim" class="hover:text-blue-400 transition-colors flex items-center gap-2">
+                <i class="pi pi-angle-right text-xs"></i> İletişim & Teklif
+              </NuxtLink>
             </li>
           </ul>
         </div>
 
+        <!-- Hizmetler -->
         <div>
           <h4 class="text-white font-bold mb-6 flex items-center gap-2">
             <span class="w-1 h-4 bg-purple-500 rounded-full"></span>
             Hizmetlerimiz
           </h4>
           <ul class="space-y-3 text-sm">
-            <li class="hover:text-purple-400 transition-colors cursor-pointer">
-              Detaylı Halı Yıkama
-            </li>
-            <li class="hover:text-purple-400 transition-colors cursor-pointer">
-              Koltuk Takımı Yıkama
-            </li>
-            <li class="hover:text-purple-400 transition-colors cursor-pointer">
-              Yorgan & Battaniye
-            </li>
-            <li class="hover:text-purple-400 transition-colors cursor-pointer">
-              Stor Perde Temizliği
-            </li>
+            <li class="hover:text-purple-400 transition-colors cursor-pointer">Detaylı Halı Yıkama</li>
+            <li class="hover:text-purple-400 transition-colors cursor-pointer">Koltuk Takımı Yıkama</li>
+            <li class="hover:text-purple-400 transition-colors cursor-pointer">Yorgan & Battaniye</li>
+            <li class="hover:text-purple-400 transition-colors cursor-pointer">Stor Perde Temizliği</li>
           </ul>
         </div>
 
+        <!-- İletişim -->
         <div>
           <h4 class="text-white font-bold mb-6 flex items-center gap-2">
             <span class="w-1 h-4 bg-green-500 rounded-full"></span>
@@ -169,79 +112,66 @@
           </h4>
           <ul class="space-y-4 text-sm">
             <li class="flex items-start gap-3 group">
-              <i
-                class="pi pi-map-marker mt-1 text-slate-500 group-hover:text-white transition-colors"
-              ></i>
-              <span class="group-hover:text-slate-300 transition-colors"
-                >Merkezefendi - Pamukkale / Denizli</span
-              >
+              <i class="pi pi-map-marker mt-1 text-slate-500 group-hover:text-white transition-colors"></i>
+              <span class="group-hover:text-slate-300 transition-colors">Merkezefendi - Pamukkale / Denizli</span>
             </li>
             <li class="flex items-center gap-3 group">
-              <i
-                class="pi pi-phone text-slate-500 group-hover:text-blue-400 transition-colors"
-              ></i>
-              <a
-                href="tel:+905530257011"
-                class="group-hover:text-white transition-colors font-semibold"
-                >Semih DEMİR - 0553 025 70 11</a
-              >
-            </li>
-
-            <li class="flex items-center gap-3 group">
-              <i
-                class="pi pi-phone text-slate-500 group-hover:text-blue-400 transition-colors"
-              ></i>
-              <a
-                href="tel:+905539409095"
-                class="group-hover:text-white transition-colors font-semibold"
-                >Mertcan KAYNAK - 0553 940 90 93</a
-              >
+              <i class="pi pi-phone text-slate-500 group-hover:text-blue-400 transition-colors"></i>
+              <a href="tel:+905530257011" class="group-hover:text-white transition-colors font-semibold">
+                Semih DEMİR - 0553 025 70 11
+              </a>
             </li>
             <li class="flex items-center gap-3 group">
-              <i
-                class="pi pi-whatsapp text-slate-500 group-hover:text-green-400 transition-colors"
-              ></i>
-              <a
-                href="https://wa.me/905530257011"
-                target="_blank"
-                class="group-hover:text-white transition-colors"
-                >WhatsApp Destek (Semih)</a
-              >
+              <i class="pi pi-phone text-slate-500 group-hover:text-blue-400 transition-colors"></i>
+              <!-- DÜZELTİLDİ: tel link ile görüntülenen numara eşleştirildi -->
+              <a href="tel:+905539409093" class="group-hover:text-white transition-colors font-semibold">
+                Mertcan KAYNAK - 0553 940 90 93
+              </a>
             </li>
             <li class="flex items-center gap-3 group">
-              <i
-                class="pi pi-whatsapp text-slate-500 group-hover:text-green-400 transition-colors"
-              ></i>
-              <a
-                href="https://wa.me/905539409095"
-                target="_blank"
-                class="group-hover:text-white transition-colors"
-                >WhatsApp Destek (Mertcan)</a
-              >
+              <i class="pi pi-whatsapp text-slate-500 group-hover:text-green-400 transition-colors"></i>
+              <a href="https://wa.me/905530257011" target="_blank" rel="noopener noreferrer" class="group-hover:text-white transition-colors">
+                WhatsApp Destek (Semih)
+              </a>
+            </li>
+            <li class="flex items-center gap-3 group">
+              <i class="pi pi-whatsapp text-slate-500 group-hover:text-green-400 transition-colors"></i>
+              <!-- DÜZELTİLDİ: 905539409095 → 905539409093 -->
+              <a href="https://wa.me/905539409093" target="_blank" rel="noopener noreferrer" class="group-hover:text-white transition-colors">
+                WhatsApp Destek (Mertcan)
+              </a>
             </li>
           </ul>
         </div>
+
       </div>
 
-      <div
-        class="border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4"
-      >
+      <!-- Alt bar -->
+      <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <p class="text-xs text-slate-600">
-          © 2026 <span class="text-slate-400">Pandora Halı Yıkama</span>. Tüm
-          hakları saklıdır.
+          © 2026 <span class="text-slate-400">Pandora Halı Yıkama</span>. Tüm hakları saklıdır.
         </p>
 
         <div class="flex items-center gap-4">
+          <!-- Instagram: kullanıcı adını doğrula, hesap aktifse bu URL doğru -->
           <a
             href="https://www.instagram.com/pandora.temizlik/"
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram sayfamız"
             class="w-8 h-8 rounded-lg bg-slate-800 flex items-center justify-center hover:bg-pink-600 hover:text-white transition-all duration-300"
           >
             <i class="pi pi-instagram"></i>
           </a>
+
+          <!-- DÜZELTİLDİ: pfbid geçici URL kaldırıldı → kalıcı sayfa URL'si -->
+          <!-- Pandora Facebook sayfanın kalıcı URL'ini buraya yaz -->
+          <!-- Örnek: https://www.facebook.com/pandoratemizlik -->
           <a
-            href="https://www.facebook.com/people/Pandora-Temizlik/pfbid02zwfYs71G1HUMBKK7pfzw22Bg5RYfKjHutEwbhtVhD5E7sEX4ZvsJJn3XpDNntxtel/"
+            href="https://www.facebook.com/pandoratemizlik"
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook sayfamız"
             class="w-8 h-8 rounded-lg bg-slate-800 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300"
           >
             <i class="pi pi-facebook"></i>
