@@ -6,16 +6,16 @@
         <div class="breadcrumb">
           <NuxtLink to="/">Anasayfa</NuxtLink>
           <span> › </span>
-          <span>Pamukkale Halı Yıkama</span>
+          <span>Pamukkale Koltuk Yıkama</span>
         </div>
-        <h1>Pamukkale Halı Yıkama Hizmeti</h1>
+        <h1>Pamukkale Koltuk Yıkama Hizmeti</h1>
         <p class="hero-desc">
-          Pamukkale ilçesinde profesyonel halı yıkama hizmeti. Anti-bakteriyel şampuanlar ve güçlü
-          makinelerle halılarınızı derinlemesine temizliyoruz. Ücretsiz servis, aynı gün teslimat.
+          Pamukkale ilçesinde profesyonel koltuk yıkama hizmeti. Anti-bakteriyel şampuanlar ve güçlü
+          makinelerle koltuk ve döşemelerinizi derinlemesine temizliyoruz. Ücretsiz servis, aynı gün hizmet.
         </p>
         <div class="hero-btns">
           <a href="tel:+905530257011" class="btn-primary">Hemen Ara: 0553 025 70 11</a>
-          <a href="https://wa.me/905530257011?text=Pamukkale%20hal%C4%B1%20y%C4%B1kama%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" class="btn-secondary">WhatsApp ile Yaz</a>
+          <a href="https://wa.me/905530257011?text=Pamukkale%20koltuk%20y%C4%B1kama%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" class="btn-secondary">WhatsApp ile Yaz</a>
         </div>
       </div>
     </section>
@@ -23,14 +23,14 @@
     <!-- İçerik -->
     <section class="content-section">
       <div class="container">
-        <h2>Pamukkale'de Profesyonel Halı Yıkama</h2>
+        <h2>Pamukkale'de Profesyonel Koltuk Yıkama</h2>
         <p>
-          Pamukkale ilçesinde ikamet eden siz değerli müşterilerimize kapınıza kadar gelen halı yıkama hizmeti sunuyoruz.
-          Halılarınızı taşımanıza gerek yok — Pandora Temizlik ekibi tüm ekipmanlarıyla evinize geliyor, halılarınızı
-          alıyor, fabrika ortamında yıkıyor ve teslim ediyor.
+          Pamukkale ilçesinde ikamet eden siz değerli müşterilerimize yerinde koltuk yıkama hizmeti sunuyoruz.
+          Koltuklarınızı taşımanıza gerek yok — Pandora Temizlik ekibi tüm ekipmanlarıyla evinize geliyor ve
+          koltuk, kanepe, sandalye döşemelerinizi yerinde yıkıyor.
         </p>
         <p>
-          Tam otomatik yıkama makinelerimizde, anti-bakteriyel şampuanlarla halılarınızın derinlerine işleyen
+          Güçlü buharlı yıkama makinelerimizde, anti-bakteriyel şampuanlarla döşemelerinizin derinlerine işleyen
           kir, toz ve akarları temizliyoruz. Çocuklar ve evcil hayvanlar için güvenli, %100 organik ürünler kullanıyoruz.
         </p>
 
@@ -38,12 +38,12 @@
           <div class="feature-card">
             <span class="feature-icon">🚗</span>
             <h3>Ücretsiz Servis</h3>
-            <p>Pamukkale'nin tüm mahallelerine halı alma ve teslim hizmeti ücretsiz.</p>
+            <p>Pamukkale'nin tüm mahallelerine ücretsiz geliyor, yerinde yıkıyoruz.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">🧼</span>
-            <h3>Anti-Bakteriyel Yıkama</h3>
-            <p>Tam otomatik makinelerde, özel şampuanlarla bakteri ve akar temizliği.</p>
+            <span class="feature-icon">💨</span>
+            <h3>Buharlı Yıkama</h3>
+            <p>Güçlü buhar makineleriyle bakteri ve akar temizliği, hızlı kuruma.</p>
           </div>
           <div class="feature-card">
             <span class="feature-icon">🌿</span>
@@ -52,8 +52,8 @@
           </div>
           <div class="feature-card">
             <span class="feature-icon">⚡</span>
-            <h3>Hızlı Teslimat</h3>
-            <p>Halılarınız yıkandıktan sonra aynı gün veya ertesi gün teslim edilir.</p>
+            <h3>Hızlı Kuruma</h3>
+            <p>Koltuklar 2-4 saat içinde kuruyarak aynı gün kullanıma hazır hale gelir.</p>
           </div>
         </div>
       </div>
@@ -82,24 +82,24 @@
     <!-- Fiyat -->
     <section class="fiyat-section">
       <div class="container">
-        <h2>Pamukkale Halı Yıkama Fiyatları</h2>
+        <h2>Pamukkale Koltuk Yıkama Fiyatları</h2>
         <p>
-          Fiyatlarımız halının boyutuna, cinsine ve kirliliğine göre belirlenmektedir.
+          Fiyatlarımız koltuğun boyutuna, kumaş tipine ve kirliliğine göre belirlenmektedir.
           Kesin fiyat için ücretsiz keşif yapıyoruz. Fotoğraf göndererek de fiyat alabilirsiniz.
         </p>
         <div class="fiyat-grid">
           <div class="fiyat-card">
-            <h3>Makine Halısı</h3>
-            <p>m² bazında fiyatlandırma</p>
+            <h3>Köşe Takımı</h3>
+            <p>Koltuk sayısına göre fiyatlandırma</p>
             <a href="tel:+905530257011" class="btn-fiyat">Fiyat Al</a>
           </div>
           <div class="fiyat-card">
-            <h3>El Halısı</h3>
-            <p>Özel bakım ile yıkama</p>
+            <h3>Tekli / İkili Koltuk</h3>
+            <p>Adet bazında uygun fiyat</p>
             <a href="tel:+905530257011" class="btn-fiyat">Fiyat Al</a>
           </div>
           <div class="fiyat-card">
-            <h3>Yolluk / Kilim</h3>
+            <h3>Sandalye</h3>
             <p>Her boyut için uygun fiyat</p>
             <a href="tel:+905530257011" class="btn-fiyat">Fiyat Al</a>
           </div>
@@ -113,24 +113,24 @@
         <h2>Sık Sorulan Sorular</h2>
         <div class="sss-list">
           <div class="sss-item">
-            <h3>Pamukkale'de halı yıkama hizmeti veriyor musunuz?</h3>
-            <p>Evet, Pamukkale ilçesinin tüm mahallelerine ücretsiz servis sağlıyoruz. Halılarınızı kapınızdan alıp yıkadıktan sonra teslim ediyoruz.</p>
+            <h3>Pamukkale'de koltuk yıkama hizmeti veriyor musunuz?</h3>
+            <p>Evet, Pamukkale ilçesinin tüm mahallelerine ücretsiz servis sağlıyoruz. Ekibimiz tüm ekipmanlarıyla evinize gelip koltuklarınızı yerinde yıkıyor.</p>
           </div>
           <div class="sss-item">
-            <h3>Halı yıkama ne kadar sürer?</h3>
-            <p>Halılar fabrikamızda ortalama 6-8 saatte yıkanıp kurutuluyor. Genellikle aynı gün veya ertesi gün teslim ediyoruz.</p>
+            <h3>Koltuk yıkama ne kadar sürer?</h3>
+            <p>Yıkama işlemi koltuk başına ortalama 30-60 dakika sürer. Kuruması ise 2-4 saat içinde tamamlanır, aynı gün kullanabilirsiniz.</p>
           </div>
           <div class="sss-item">
-            <h3>Pamukkale halı yıkama fiyatları ne kadar?</h3>
-            <p>Fiyatlar halının boyutuna ve cinsine göre değişiyor. Kesin fiyat için 0553 025 70 11'i arayın veya WhatsApp'tan fotoğraf gönderin.</p>
+            <h3>Pamukkale koltuk yıkama fiyatları ne kadar?</h3>
+            <p>Fiyatlar koltuğun boyutuna ve kumaş tipine göre değişiyor. Kesin fiyat için 0553 025 70 11'i arayın veya WhatsApp'tan fotoğraf gönderin.</p>
           </div>
           <div class="sss-item">
-            <h3>El halılarını da yıkıyor musunuz?</h3>
-            <p>Evet, el halıları için özel yıkama programlarımız var. El halılarına zarar vermeden, dokusunu koruyarak yıkıyoruz.</p>
+            <h3>Köşe takımını da yıkıyor musunuz?</h3>
+            <p>Evet, her boyut ve modelde köşe takımı yıkama hizmeti veriyoruz. Koltuk sayısına göre fiyat belirlenir.</p>
           </div>
           <div class="sss-item">
-            <h3>Halı yıkama sonrası renk solması olur mu?</h3>
-            <p>Hayır. Kullandığımız ürünler halı dokusuna ve rengine zarar vermiyor. Yıkama öncesi renk testi yapıyoruz.</p>
+            <h3>Koltuk yıkama sonrası renk solması olur mu?</h3>
+            <p>Hayır. Kullandığımız ürünler döşeme dokusuna ve rengine zarar vermiyor. Yıkama öncesi kumaş testi yapıyoruz.</p>
           </div>
         </div>
       </div>
@@ -139,11 +139,11 @@
     <!-- CTA -->
     <section class="cta-section">
       <div class="container">
-        <h2>Pamukkale'de Halı Yıkama İçin Hemen Arayın</h2>
-        <p>Bugün randevu alın, halılarınızı kapınızdan alalım.</p>
+        <h2>Pamukkale'de Koltuk Yıkama İçin Hemen Arayın</h2>
+        <p>Bugün randevu alın, ekibimiz evinize gelsin.</p>
         <div class="cta-btns">
           <a href="tel:+905530257011" class="btn-primary">0553 025 70 11</a>
-          <a href="https://wa.me/905530257011?text=Pamukkale%20hal%C4%B1%20y%C4%B1kama%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" class="btn-secondary">WhatsApp</a>
+          <a href="https://wa.me/905530257011?text=Pamukkale%20koltuk%20y%C4%B1kama%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" class="btn-secondary">WhatsApp</a>
         </div>
       </div>
     </section>
@@ -152,10 +152,10 @@
 
 <script setup>
 useSeoMeta({
-  title: 'Pamukkale Halı Yıkama | Ücretsiz Servis - Pandora Temizlik',
-  description: 'Pamukkale\'de profesyonel halı yıkama hizmeti. Anti-bakteriyel yıkama, ücretsiz servis, aynı gün teslimat. Hemen ara: 0553 025 70 11',
-  ogTitle: 'Pamukkale Halı Yıkama - Pandora Temizlik',
-  ogDescription: 'Pamukkale\'de profesyonel halı yıkama hizmeti. Ücretsiz servis, aynı gün teslimat.',
+  title: 'Pamukkale Koltuk Yıkama | Ücretsiz Servis - Pandora Temizlik',
+  description: 'Pamukkale\'de profesyonel koltuk yıkama hizmeti. Yerinde yıkama, anti-bakteriyel temizlik, hızlı kuruma. Hemen ara: 0553 025 70 11',
+  ogTitle: 'Pamukkale Koltuk Yıkama - Pandora Temizlik',
+  ogDescription: 'Pamukkale\'de profesyonel koltuk yıkama hizmeti. Ücretsiz servis, yerinde yıkama, hızlı kuruma.',
   ogUrl: 'https://www.denizlipandoratemizlik.com.tr/pamukkale-hali-yikama',
   ogImage: 'https://www.denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.webp',
   ogType: 'website',
@@ -169,8 +169,8 @@ useHead({
       innerHTML: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Service",
-        "name": "Pamukkale Halı Yıkama",
-        "description": "Pamukkale ilçesinde profesyonel halı yıkama hizmeti. Ücretsiz servis ve aynı gün teslimat.",
+        "name": "Pamukkale Koltuk Yıkama",
+        "description": "Pamukkale ilçesinde profesyonel koltuk yıkama hizmeti. Yerinde yıkama, ücretsiz servis, hızlı kuruma.",
         "provider": {
           "@type": "LocalBusiness",
           "name": "Pandora Temizlik Denizli",
@@ -181,7 +181,7 @@ useHead({
           "@type": "AdministrativeArea",
           "name": "Pamukkale"
         },
-        "serviceType": "Halı Yıkama",
+        "serviceType": "Koltuk Yıkama",
         "offers": {
           "@type": "Offer",
           "availability": "https://schema.org/InStock",

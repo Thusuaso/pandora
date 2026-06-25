@@ -50,7 +50,7 @@ export default defineNuxtConfig({
     url: "https://www.denizlipandoratemizlik.com.tr",
     name: "Pandora Temizlik Denizli",
     description:
-      "Denizli profesyonel koltuk yıkama, halı yıkama ve yerinde temizlik hizmetleri.",
+      "Denizli profesyonel koltuk yıkama, yatak yıkama ve yerinde temizlik hizmetleri.",
     defaultLocale: "tr",
   },
 
@@ -87,7 +87,6 @@ export default defineNuxtConfig({
           defer: true,
           tagPosition: "bodyClose",
         },
-        // ✅ LocalBusiness Schema
         {
           type: "application/ld+json",
           innerHTML: JSON.stringify({
@@ -95,7 +94,7 @@ export default defineNuxtConfig({
             "@type": "LocalBusiness",
             name: "Pandora Temizlik Denizli",
             description:
-              "Denizli Merkezefendi ve Pamukkale'de yerinde koltuk yıkama, halı yıkama, yatak yıkama ve stor perde temizliği. %100 organik şampuan, leke çıkarma garantisi.",
+              "Denizli Merkezefendi ve Pamukkale'de yerinde koltuk yıkama, yatak yıkama ve stor perde temizliği. %100 organik şampuan, leke çıkarma garantisi.",
             image:
               "https://www.denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.png",
             logo: "https://www.denizlipandoratemizlik.com.tr/pandora_icon.png",
@@ -146,14 +145,6 @@ export default defineNuxtConfig({
                   itemOffered: {
                     "@type": "Service",
                     name: "Yerinde Koltuk Yıkama",
-                    url: "https://www.denizlipandoratemizlik.com.tr/#hizmetler",
-                  },
-                },
-                {
-                  "@type": "Offer",
-                  itemOffered: {
-                    "@type": "Service",
-                    name: "Halı Yıkama",
                     url: "https://www.denizlipandoratemizlik.com.tr/#hizmetler",
                   },
                 },

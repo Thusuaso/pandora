@@ -26,7 +26,7 @@
           >
         </h1>
         <p class="text-slate-400 text-lg md:text-xl leading-relaxed">
-          Pandora kalitesiyle tanışan halı ve koltukların muazzam değişimine
+          Pandora kalitesiyle tanışan koltuk ve eşyaların muazzam değişimine
           tanık olun. Aşağıdaki görsellerde hiçbir filtre kullanılmamıştır.
         </p>
       </div>
@@ -74,7 +74,7 @@
               <NuxtImg
                    src="/images/koltuk/denizli_pandora_temizlik_koltuk_yikama_10_once.jpg"
                   class="absolute inset-0 w-full max-w-none h-full object-cover filter"
-  alt="Detaylı Halı Yıkama"
+  alt="Detaylı Koltuk Yıkama"
   width="600"
   height="400"
   loading="lazy"
@@ -287,7 +287,7 @@
 import { ref, onMounted, onUnmounted } from "vue";
 
 useHead({
-  title: "Galeri - Pandora Halı Yıkama",
+  title: "Galeri - Pandora Temizlik",
 });
 
 // Slider Durumları (Yüzde olarak)
@@ -367,7 +367,7 @@ const galleryImages = ref([
 const galleryVideos = ref([
   {
     src: "/videos/hali/denizli_pandora_temizlik_hali_yikama_1.mp4",
-    title: "Derinlemesine Halı Temizliği",
+    title: "Derinlemesine Koltuk Temizliği",
   },
   {
     src: "/videos/koltuk/denizli_pandora_temizlik_koltuk_yastigi_yikama_1.mp4",

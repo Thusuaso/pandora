@@ -12,7 +12,7 @@
           <NuxtLink to="/merkezefendi-koltuk-yikama">Merkezefendi Koltuk Yıkama</NuxtLink>
         </span>
         <span class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default">
-          <NuxtLink to="/pamukkale-hali-yikama">Pamukkale Halı Yıkama</NuxtLink>
+          <NuxtLink to="/pamukkale-hali-yikama">Pamukkale Koltuk Yıkama</NuxtLink>
         </span>
         <span class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default">
           <NuxtLink to="/denizli-yatak-yikama">Denizli Yatak Yıkama</NuxtLink>
@@ -24,7 +24,7 @@
           <NuxtLink to="/cinar-mahallesi-koltuk-yikama">Çınar Mahallesi</NuxtLink>
         </span>
         <span class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default">
-          <NuxtLink to="/bagbasi-hali-yikama">Bağbaşı Halı Yıkama</NuxtLink>
+          <NuxtLink to="/bagbasi-hali-yikama">Bağbaşı Koltuk Yıkama</NuxtLink>
         </span>
         <span class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default">Servergazi</span>
         <span class="px-3 py-1 bg-slate-800/50 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-400 transition-colors cursor-default">Yenişehir</span>
@@ -34,9 +34,9 @@
       </div>
 
       <p class="text-center text-xs text-slate-600 mt-6 max-w-4xl mx-auto">
-        Denizli Pandora Halı Yıkama olarak; Merkezefendi ve Pamukkale
-        ilçelerinin tüm mahallelerine ücretsiz servisimiz bulunmaktadır. Halı,
-        koltuk, yorgan, battaniye ve stor perde yıkama işlemlerinizde
+        Denizli Pandora Temizlik olarak; Merkezefendi ve Pamukkale
+        ilçelerinin tüm mahallelerine ücretsiz servisimiz bulunmaktadır. Koltuk,
+        kanepe, yatak, yorgan, battaniye ve stor perde yıkama işlemlerinizde
         profesyonel çözüm ortağınız.
       </p>
     </div>
@@ -60,7 +60,7 @@
             </div>
           </div>
           <p class="text-sm leading-relaxed text-slate-500">
-            Pandora Halı Yıkama olarak, son teknoloji ekipmanlar ve %100 organik
+            Pandora Temizlik olarak, son teknoloji ekipmanlar ve %100 organik
             şampuanlarla evinizin hijyenini güvence altına alıyoruz.
           </p>
         </div>
@@ -97,8 +97,8 @@
             Hizmetlerimiz
           </h4>
           <ul class="space-y-3 text-sm">
-            <li class="hover:text-purple-400 transition-colors cursor-pointer">Detaylı Halı Yıkama</li>
             <li class="hover:text-purple-400 transition-colors cursor-pointer">Koltuk Takımı Yıkama</li>
+            <li class="hover:text-purple-400 transition-colors cursor-pointer">Yatak Yıkama</li>
             <li class="hover:text-purple-400 transition-colors cursor-pointer">Yorgan & Battaniye</li>
             <li class="hover:text-purple-400 transition-colors cursor-pointer">Stor Perde Temizliği</li>
           </ul>
@@ -123,7 +123,6 @@
             </li>
             <li class="flex items-center gap-3 group">
               <i class="pi pi-phone text-slate-500 group-hover:text-blue-400 transition-colors"></i>
-              <!-- DÜZELTİLDİ: tel link ile görüntülenen numara eşleştirildi -->
               <a href="tel:+905539409093" class="group-hover:text-white transition-colors font-semibold">
                 Mertcan KAYNAK - 0553 940 90 93
               </a>
@@ -136,7 +135,6 @@
             </li>
             <li class="flex items-center gap-3 group">
               <i class="pi pi-whatsapp text-slate-500 group-hover:text-green-400 transition-colors"></i>
-              <!-- DÜZELTİLDİ: 905539409095 → 905539409093 -->
               <a href="https://wa.me/905539409093" target="_blank" rel="noopener noreferrer" class="group-hover:text-white transition-colors">
                 WhatsApp Destek (Mertcan)
               </a>
@@ -149,11 +147,10 @@
       <!-- Alt bar -->
       <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <p class="text-xs text-slate-600">
-          © 2026 <span class="text-slate-400">Pandora Halı Yıkama</span>. Tüm hakları saklıdır.
+          © 2026 <span class="text-slate-400">Pandora Temizlik</span>. Tüm hakları saklıdır.
         </p>
 
         <div class="flex items-center gap-4">
-          <!-- Instagram: kullanıcı adını doğrula, hesap aktifse bu URL doğru -->
           <a
             href="https://www.instagram.com/pandora.temizlik/"
             target="_blank"
@@ -163,10 +160,6 @@
           >
             <i class="pi pi-instagram"></i>
           </a>
-
-          <!-- DÜZELTİLDİ: pfbid geçici URL kaldırıldı → kalıcı sayfa URL'si -->
-          <!-- Pandora Facebook sayfanın kalıcı URL'ini buraya yaz -->
-          <!-- Örnek: https://www.facebook.com/pandoratemizlik -->
           <a
             href="https://www.facebook.com/pandoratemizlik"
             target="_blank"

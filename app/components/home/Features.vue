@@ -115,7 +115,7 @@ import { ref } from "vue";
 const features = ref([
   {
     title: "Servis Ağı",
-    desc: "Halı, koltuk, yatak ve stor perdelerinizi yerinde yıkama hizmetiyle yıkıyoruz.",
+    desc: "Koltuk, yatak ve stor perdelerinizi yerinde yıkama hizmetiyle temizliyoruz.",
     icon: "pi pi-truck",
     bgClass: "bg-blue-600",
   },

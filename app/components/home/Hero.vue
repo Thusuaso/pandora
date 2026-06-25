@@ -5,7 +5,7 @@
     <div class="absolute inset-0 z-0">
       <NuxtImg
         src="/pandora_temizlik_ana_fotograf.webp"
-        alt="Denizli Pandora Temizlik - Profesyonel Koltuk ve Halı Yıkama"
+        alt="Denizli Pandora Temizlik - Profesyonel Koltuk ve Yatak Yıkama"
         class="w-full h-full object-cover"
         width="1920"
         height="700"

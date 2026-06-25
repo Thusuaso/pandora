@@ -24,51 +24,12 @@
           >
         </h1>
         <p class="text-slate-400 text-lg leading-relaxed">
-          Sürpriz ek ücretler yok. Halınızın türüne ve eşyanızın cinsine göre
+          Sürpriz ek ücretler yok. Eşyanızın cinsine göre
           belirlenmiş standart ve adil fiyatlar.
         </p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div
-          class="group bg-[#111827] border border-slate-800 rounded-3xl p-8 hover:border-blue-500/50 transition-all duration-500 hover:-translate-y-2 relative overflow-hidden"
-        >
-          <div
-            class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity"
-          >
-            <i
-              class="pi pi-stop bg-gradient-to-br from-blue-500 to-transparent bg-clip-text text-transparent text-9xl"
-            ></i>
-          </div>
-
-          <div class="flex items-center gap-4 mb-8">
-            <div
-              class="w-12 h-12 rounded-xl bg-blue-500/20 flex items-center justify-center text-blue-400"
-            >
-              <i class="pi pi-clone text-xl"></i>
-            </div>
-            <h3 class="text-2xl font-bold text-white">Halı Yıkama</h3>
-          </div>
-
-          <ul class="space-y-6 relative z-10">
-            <li
-              v-for="item in carpetPrices"
-              :key="item.name"
-              class="flex items-end justify-between border-b border-dashed border-slate-800 pb-2"
-            >
-              <div>
-                <span class="text-slate-300 font-medium block">{{
-                  item.name
-                }}</span>
-                <span class="text-xs text-slate-500">{{ item.unit }}</span>
-              </div>
-              <span class="text-xl font-bold text-blue-400"
-                >{{ item.price }}₺</span
-              >
-            </li>
-          </ul>
-        </div>
-
         <div
           class="group bg-[#111827] border border-slate-800 rounded-3xl p-8 hover:border-purple-500/50 transition-all duration-500 hover:-translate-y-2 relative overflow-hidden"
         >
@@ -186,16 +147,9 @@
 import { ref } from "vue";
 
 useHead({
-  title: "Fiyat Listesi - Pandora Halı Yıkama",
+  title: "Fiyat Listesi - Pandora Temizlik",
 });
 
-const carpetPrices = ref([
-  { name: "Makine Halısı", unit: "Metrekare (m²)", price: "50" },
-  { name: "Shaggy Halı", unit: "Metrekare (m²)", price: "60" },
-  { name: "Yün Halı", unit: "Metrekare (m²)", price: "70" },
-  { name: "Bambu / İpek", unit: "Metrekare (m²)", price: "90" },
-  { name: "El Dokuma", unit: "Metrekare (m²)", price: "85" },
-]);
 const sofaPrices = ref([
   { name: "Oturma Grubu (3+2+1+1)", unit: "Takım", price: "1500-5000" },
   { name: "Köşe Koltuk (L Tipi)", unit: "Adet", price: "900" },

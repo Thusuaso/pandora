@@ -6,16 +6,16 @@
         <div class="breadcrumb">
           <NuxtLink to="/">Anasayfa</NuxtLink>
           <span> › </span>
-          <span>Bağbaşı Halı Yıkama</span>
+          <span>Bağbaşı Koltuk Yıkama</span>
         </div>
-        <h1>Bağbaşı Halı Yıkama Hizmeti</h1>
+        <h1>Bağbaşı Koltuk Yıkama Hizmeti</h1>
         <p class="hero-desc">
-          Bağbaşı Mahallesi'nde profesyonel halı yıkama hizmeti. Anti-bakteriyel şampuanlar ve
-          güçlü makinelerle halılarınızı derinlemesine temizliyoruz. Ücretsiz servis, aynı gün teslimat.
+          Bağbaşı Mahallesi'nde profesyonel koltuk yıkama hizmeti. Anti-bakteriyel şampuanlar ve
+          güçlü makinelerle koltuk ve döşemelerinizi derinlemesine temizliyoruz. Ücretsiz servis, aynı gün teslimat.
         </p>
         <div class="hero-btns">
           <a href="tel:+905530257011" class="btn-primary">Hemen Ara: 0553 025 70 11</a>
-          <a href="https://wa.me/905530257011?text=Ba%C4%9Fba%C5%9F%C4%B1%20hal%C4%B1%20y%C4%B1kama%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" class="btn-secondary">WhatsApp ile Yaz</a>
+          <a href="https://wa.me/905530257011?text=Ba%C4%9Fba%C5%9F%C4%B1%20koltuk%20y%C4%B1kama%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" class="btn-secondary">WhatsApp ile Yaz</a>
         </div>
       </div>
     </section>
@@ -23,28 +23,28 @@
     <!-- İçerik -->
     <section class="content-section">
       <div class="container">
-        <h2>Bağbaşı'nda Profesyonel Halı Yıkama</h2>
+        <h2>Bağbaşı'nda Profesyonel Koltuk Yıkama</h2>
         <p>
-          Bağbaşı Mahallesi'nde ikamet eden siz değerli müşterilerimize kapınıza kadar gelen
-          halı yıkama hizmeti sunuyoruz. Halılarınızı taşımanıza gerek yok — Pandora Temizlik
-          ekibi halılarınızı kapınızdan alıyor, fabrika ortamında yıkıyor ve teslim ediyor.
+          Bağbaşı Mahallesi'nde ikamet eden siz değerli müşterilerimize yerinde koltuk yıkama
+          hizmeti sunuyoruz. Koltuklarınızı taşımanıza gerek yok — Pandora Temizlik
+          ekibi tüm ekipmanlarıyla evinize geliyor ve yerinde yıkıyor.
         </p>
         <p>
-          Tam otomatik yıkama makinelerimizde, anti-bakteriyel şampuanlarla halılarınızın
-          derinlerine işleyen kir, toz ve akarları temizliyoruz. Makine halısından el dokumasına,
-          yolluktan kilime kadar her tür halıyı yıkıyoruz.
+          Güçlü buharlı yıkama makinelerimizle, anti-bakteriyel şampuanlarla koltuk, kanepe ve
+          döşemelerinizin derinlerine işleyen kir, toz ve akarları temizliyoruz. Tekli koltuktan
+          köşe takımına kadar her tür döşemeyi yıkıyoruz.
         </p>
 
         <div class="features-grid">
           <div class="feature-card">
             <span class="feature-icon">🚗</span>
-            <h3>Kapıdan Alım</h3>
-            <p>Bağbaşı Mahallesi'ne ücretsiz gelip halılarınızı alıyoruz.</p>
+            <h3>Yerinde Hizmet</h3>
+            <p>Bağbaşı Mahallesi'ne ücretsiz gelip koltukları yerinde yıkıyoruz.</p>
           </div>
           <div class="feature-card">
-            <span class="feature-icon">🏭</span>
-            <h3>Fabrika Ortamında Yıkama</h3>
-            <p>Tam otomatik makinelerde profesyonel yıkama ve kurutma.</p>
+            <span class="feature-icon">💨</span>
+            <h3>Buharlı Yıkama</h3>
+            <p>Güçlü buhar makineleriyle derin temizlik ve hızlı kuruma.</p>
           </div>
           <div class="feature-card">
             <span class="feature-icon">🌿</span>
@@ -53,47 +53,47 @@
           </div>
           <div class="feature-card">
             <span class="feature-icon">⚡</span>
-            <h3>Hızlı Teslimat</h3>
-            <p>Yıkanan halılar aynı gün veya ertesi gün teslim edilir.</p>
+            <h3>Hızlı Kuruma</h3>
+            <p>Koltuklar 2-4 saat içinde kuruyarak kullanıma hazır hale gelir.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Halı Türleri -->
+    <!-- Koltuk Türleri -->
     <section class="tur-section">
       <div class="container">
-        <h2>Yıkadığımız Halı Türleri</h2>
+        <h2>Yıkadığımız Koltuk Türleri</h2>
         <div class="tur-grid">
           <div class="tur-card">
-            <span class="tur-icon">🟫</span>
-            <h3>Makine Halısı</h3>
-            <p>Her marka ve boyutta makine halıları. m² bazında fiyatlandırma.</p>
+            <span class="tur-icon">🛋️</span>
+            <h3>Köşe Takımı</h3>
+            <p>Her boyut ve modelde köşe koltuk takımları için profesyonel yıkama.</p>
           </div>
           <div class="tur-card">
-            <span class="tur-icon">🟤</span>
-            <h3>El Dokuması Halı</h3>
-            <p>Kök boya ve değerli el halıları için özel yıkama programı.</p>
+            <span class="tur-icon">🪑</span>
+            <h3>Tekli Koltuk</h3>
+            <p>Berjer ve tekli koltuklar için özel temizlik programı.</p>
           </div>
           <div class="tur-card">
-            <span class="tur-icon">🟧</span>
-            <h3>Yolluk ve Koridorluk</h3>
-            <p>Her uzunlukta yolluk ve koridor halıları.</p>
+            <span class="tur-icon">🛋️</span>
+            <h3>İkili / Üçlü Kanepe</h3>
+            <p>Her kumaş tipinde ikili ve üçlü kanepe yıkama.</p>
           </div>
           <div class="tur-card">
-            <span class="tur-icon">🟨</span>
-            <h3>Kilim ve Cicim</h3>
-            <p>Kilim, cicim ve düz dokuma halılar için uygun yıkama.</p>
+            <span class="tur-icon">🪑</span>
+            <h3>Sandalye Döşemesi</h3>
+            <p>Yemek masası sandalyeleri ve ofis koltukları için uygun yıkama.</p>
           </div>
           <div class="tur-card">
-            <span class="tur-icon">🟩</span>
-            <h3>Shaggy Halı</h3>
-            <p>Uzun tüylü shaggy halılar için özel nazik yıkama programı.</p>
+            <span class="tur-icon">🛏️</span>
+            <h3>Baza ve Başlık</h3>
+            <p>Yatak bazası ve karyola başlıkları için nazik yıkama programı.</p>
           </div>
           <div class="tur-card">
-            <span class="tur-icon">🟦</span>
-            <h3>Bebek Odası Halısı</h3>
-            <p>Bebek odası halıları için %100 organik ve güvenli yıkama.</p>
+            <span class="tur-icon">👶</span>
+            <h3>Bebek Odası Mobilyası</h3>
+            <p>Bebek koltukları için %100 organik ve güvenli yıkama.</p>
           </div>
         </div>
       </div>
@@ -102,7 +102,7 @@
     <!-- Süreç -->
     <section class="surec-section">
       <div class="container">
-        <h2>Halı Yıkama Süreci Nasıl İşler?</h2>
+        <h2>Koltuk Yıkama Süreci Nasıl İşler?</h2>
         <div class="surec-grid">
           <div class="surec-card">
             <span class="surec-no">1</span>
@@ -111,18 +111,18 @@
           </div>
           <div class="surec-card">
             <span class="surec-no">2</span>
-            <h3>Kapıdan Alalım</h3>
-            <p>Ekibimiz Bağbaşı'na gelip halılarınızı kapınızdan teslim alır.</p>
+            <h3>Evinize Gelelim</h3>
+            <p>Ekibimiz Bağbaşı'na tüm ekipmanlarıyla gelir, ön inceleme yapar.</p>
           </div>
           <div class="surec-card">
             <span class="surec-no">3</span>
-            <h3>Fabrikada Yıkayalım</h3>
-            <p>Tam otomatik makinelerde anti-bakteriyel şampuanlarla derinlemesine yıkama ve kurutma.</p>
+            <h3>Yerinde Yıkayalım</h3>
+            <p>Buharlı makineler ve anti-bakteriyel şampuanlarla koltuğunuzu yerinde derinlemesine temizleriz.</p>
           </div>
           <div class="surec-card">
             <span class="surec-no">4</span>
-            <h3>Kapıya Teslim</h3>
-            <p>Temiz ve taze kokan halılarınızı aynı gün veya ertesi gün kapınıza getiriyoruz.</p>
+            <h3>Hızla Kurur</h3>
+            <p>2-4 saat içinde koltuklar kuruyarak kullanıma hazır hale gelir.</p>
           </div>
         </div>
       </div>
@@ -151,27 +151,27 @@
     <!-- Fiyat -->
     <section class="fiyat-section">
       <div class="container">
-        <h2>Bağbaşı Halı Yıkama Fiyatları</h2>
+        <h2>Bağbaşı Koltuk Yıkama Fiyatları</h2>
         <p>
-          Fiyatlarımız halının boyutuna, cinsine ve kirliliğine göre belirlenmektedir.
+          Fiyatlarımız koltuğun boyutuna, kumaş tipine ve kirliliğine göre belirlenmektedir.
           Kesin fiyat için arayın veya WhatsApp'tan fotoğraf gönderin — anında teklif veriyoruz.
         </p>
         <div class="fiyat-grid">
           <div class="fiyat-card">
-            <span class="fiyat-icon">🟫</span>
-            <h3>Makine Halısı</h3>
-            <p>m² bazında fiyatlandırma</p>
+            <span class="fiyat-icon">🛋️</span>
+            <h3>Köşe Takımı</h3>
+            <p>Koltuk sayısına göre fiyatlandırma</p>
             <a href="tel:+905530257011" class="btn-fiyat">Fiyat Al</a>
           </div>
           <div class="fiyat-card">
-            <span class="fiyat-icon">🟤</span>
-            <h3>El Halısı</h3>
-            <p>Özel bakım ile yıkama</p>
+            <span class="fiyat-icon">🪑</span>
+            <h3>Tekli / İkili Koltuk</h3>
+            <p>Adet bazında uygun fiyat</p>
             <a href="tel:+905530257011" class="btn-fiyat">Fiyat Al</a>
           </div>
           <div class="fiyat-card">
-            <span class="fiyat-icon">🟧</span>
-            <h3>Yolluk / Kilim</h3>
+            <span class="fiyat-icon">🪑</span>
+            <h3>Sandalye</h3>
             <p>Her boyut için uygun fiyat</p>
             <a href="tel:+905530257011" class="btn-fiyat">Fiyat Al</a>
           </div>
@@ -185,24 +185,24 @@
         <h2>Sık Sorulan Sorular</h2>
         <div class="sss-list">
           <div class="sss-item">
-            <h3>Bağbaşı Mahallesi'ne halı yıkama hizmeti veriyor musunuz?</h3>
-            <p>Evet, Bağbaşı Mahallesi'ne ücretsiz servis sağlıyoruz. Halılarınızı kapınızdan alıp yıkadıktan sonra teslim ediyoruz.</p>
+            <h3>Bağbaşı Mahallesi'ne koltuk yıkama hizmeti veriyor musunuz?</h3>
+            <p>Evet, Bağbaşı Mahallesi'ne ücretsiz servis sağlıyoruz. Ekibimiz tüm ekipmanlarıyla evinize geliyor ve koltuklarınızı yerinde yıkıyor.</p>
           </div>
           <div class="sss-item">
-            <h3>Halı yıkama ne kadar sürer?</h3>
-            <p>Halılar fabrikamızda ortalama 6-8 saatte yıkanıp kurutuluyor. Genellikle aynı gün veya ertesi gün teslim ediyoruz.</p>
+            <h3>Koltuk yıkama ne kadar sürer?</h3>
+            <p>Yıkama işlemi koltuk başına ortalama 30-60 dakika sürer. Kuruması ise 2-4 saat içinde tamamlanır.</p>
           </div>
           <div class="sss-item">
-            <h3>El halılarını da yıkıyor musunuz?</h3>
-            <p>Evet, el dokuması ve kök boya halılar için özel yıkama programlarımız var. Halı dokusuna ve rengine zarar vermeden nazikçe yıkıyoruz.</p>
+            <h3>Köşe takımını da yıkıyor musunuz?</h3>
+            <p>Evet, her boyut ve modelde köşe takımı yıkama hizmeti veriyoruz. Koltuk sayısına göre fiyat belirlenir.</p>
           </div>
           <div class="sss-item">
-            <h3>Halı yıkama sonrası renk solar mı?</h3>
-            <p>Hayır. Yıkama öncesi renk testi yapıyoruz. Kullandığımız ürünler halı dokusuna ve rengine zarar vermiyor.</p>
+            <h3>Koltuk yıkama sonrası renk solar mı?</h3>
+            <p>Hayır. Yıkama öncesi kumaş testi yapıyoruz. Kullandığımız ürünler döşeme dokusuna ve rengine zarar vermiyor.</p>
           </div>
           <div class="sss-item">
-            <h3>Kaç günde bir halı yıkatmalıyım?</h3>
-            <p>Uzmanlar yılda en az 1-2 kez halı yıkama öneriyor. Evcil hayvan sahipleri veya çocuklu aileler için 3-4 ayda bir yıkama idealdir.</p>
+            <h3>Kaç günde bir koltuk yıkatmalıyım?</h3>
+            <p>Uzmanlar yılda en az 1-2 kez koltuk yıkama öneriyor. Evcil hayvan sahipleri veya çocuklu aileler için 3-4 ayda bir yıkama idealdir.</p>
           </div>
         </div>
       </div>
@@ -211,11 +211,11 @@
     <!-- CTA -->
     <section class="cta-section">
       <div class="container">
-        <h2>Bağbaşı'nda Halı Yıkama İçin Hemen Arayın</h2>
-        <p>Bugün randevu alın, halılarınızı kapınızdan alalım.</p>
+        <h2>Bağbaşı'nda Koltuk Yıkama İçin Hemen Arayın</h2>
+        <p>Bugün randevu alın, ekibimiz evinize gelsin.</p>
         <div class="cta-btns">
           <a href="tel:+905530257011" class="btn-primary">0553 025 70 11</a>
-          <a href="https://wa.me/905530257011?text=Ba%C4%9Fba%C5%9F%C4%B1%20hal%C4%B1%20y%C4%B1kama%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" class="btn-secondary">WhatsApp</a>
+          <a href="https://wa.me/905530257011?text=Ba%C4%9Fba%C5%9F%C4%B1%20koltuk%20y%C4%B1kama%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" class="btn-secondary">WhatsApp</a>
         </div>
       </div>
     </section>
@@ -224,10 +224,10 @@
 
 <script setup>
 useSeoMeta({
-  title: 'Bağbaşı Halı Yıkama | Ücretsiz Servis - Pandora Temizlik',
-  description: 'Bağbaşı Mahallesi\'nde profesyonel halı yıkama hizmeti. Kapıdan alım, anti-bakteriyel yıkama, aynı gün teslimat. Hemen ara: 0553 025 70 11',
-  ogTitle: 'Bağbaşı Halı Yıkama - Pandora Temizlik',
-  ogDescription: 'Bağbaşı\'nda profesyonel halı yıkama. Ücretsiz servis, kapıdan alım, aynı gün teslimat.',
+  title: 'Bağbaşı Koltuk Yıkama | Ücretsiz Servis - Pandora Temizlik',
+  description: 'Bağbaşı Mahallesi\'nde profesyonel koltuk yıkama hizmeti. Yerinde yıkama, anti-bakteriyel temizlik, hızlı kuruma. Hemen ara: 0553 025 70 11',
+  ogTitle: 'Bağbaşı Koltuk Yıkama - Pandora Temizlik',
+  ogDescription: 'Bağbaşı\'nda profesyonel koltuk yıkama. Ücretsiz servis, yerinde yıkama, hızlı kuruma.',
   ogUrl: 'https://www.denizlipandoratemizlik.com.tr/bagbasi-hali-yikama',
   ogImage: 'https://www.denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.webp',
   ogType: 'website',
@@ -241,8 +241,8 @@ useHead({
       innerHTML: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Service",
-        "name": "Bağbaşı Halı Yıkama",
-        "description": "Bağbaşı Mahallesi'nde profesyonel halı yıkama hizmeti. Kapıdan alım, anti-bakteriyel yıkama, aynı gün teslimat.",
+        "name": "Bağbaşı Koltuk Yıkama",
+        "description": "Bağbaşı Mahallesi'nde profesyonel koltuk yıkama hizmeti. Yerinde yıkama, anti-bakteriyel temizlik, hızlı kuruma.",
         "provider": {
           "@type": "LocalBusiness",
           "name": "Pandora Temizlik Denizli",
@@ -253,7 +253,7 @@ useHead({
           "@type": "Neighborhood",
           "name": "Bağbaşı"
         },
-        "serviceType": "Halı Yıkama",
+        "serviceType": "Koltuk Yıkama",
         "offers": {
           "@type": "Offer",
           "availability": "https://schema.org/InStock",

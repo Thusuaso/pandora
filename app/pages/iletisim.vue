@@ -17,9 +17,9 @@
             <span class="text-blue-500">Birlikte Geri Getirelim</span>
           </h1>
           <p class="text-slate-400 text-lg leading-relaxed mb-8">
-            Halılarınızın türüne özel yıkama tekniklerimiz ve profesyonel
-            ekibimizle hizmetinizdeyiz. Formu doldurun, projenizi
-            (temizliğinizi) nasıl hayata geçirebileceğimizi konuşalım.
+            Profesyonel ekibimizle koltuk, yatak ve perde temizliğinde
+            hizmetinizdeyiz. Formu doldurun, temizliğinizi nasıl
+            hayata geçirebileceğimizi konuşalım.
           </p>
 
           <div class="space-y-4">
@@ -137,21 +137,6 @@
               </div>
 
               <div class="flex flex-col gap-2">
-                <label class="text-sm text-slate-400"
-                  >Tahmini Halı Metrekaresi</label
-                >
-                <select
-                  class="w-full bg-[#0f172a] border border-slate-700 rounded-lg px-4 py-3 text-slate-300 focus:outline-none focus:border-blue-500 transition-colors appearance-none"
-                  v-model="form.area"
-                >
-                  <option>Bir aralık seçin</option>
-                  <option>0 - 10 m²</option>
-                  <option>10 - 20 m²</option>
-                  <option>20 m² ve üzeri</option>
-                </select>
-              </div>
-
-              <div class="flex flex-col gap-2">
                 <label class="text-sm text-slate-400">Proje Detayları</label>
                 <textarea
                   rows="4"
@@ -201,7 +186,7 @@ useSeoMeta({
     "Denizli koltuk yıkama fiyatları için bizimle iletişime geçin. WhatsApp üzerinden anında fiyat teklifi.",
 });
 const loading = ref(false);
-const showSuccess = ref(false); // Başarılı mesajını göstermek için
+const showSuccess = ref(false);
 const form = ref({
   name: "",
   phone: "",
@@ -210,39 +195,35 @@ const form = ref({
   area: null,
   message: "",
 });
-let selectedService = ref("Halı Yıkama");
+let selectedService = ref("Koltuk Yıkama");
 const selectService = (serviceName) => {
   selectedService.value = serviceName;
   form.value.service = serviceName;
 };
 const services = [
-  "Halı Yıkama",
   "Koltuk Yıkama",
+  "Yatak Yıkama",
   "Yorgan Yıkama",
   "Stor Perde",
-  "Yatak Yıkama",
   "Diğer",
 ];
 
 const sendOffer = async () => {
-  // Basit Doğrulama
   if (!form.value.name || !form.value.phone) {
     alert("Lütfen İsim ve Telefon alanlarını doldurunuz.");
     return;
   }
 
-  loading.value = true; // Yükleniyor başlat
+  loading.value = true;
 
   try {
-    // server/api/contact.post.ts adresine verileri yolla
     const response = await $fetch("/api/contact", {
       method: "POST",
       body: form.value,
     });
 
     if (response.success) {
-      showSuccess.value = true; // Yeşil başarı kutusunu göster
-      // Formu temizle
+      showSuccess.value = true;
       form.value = {
         name: "",
         phone: "",
@@ -252,20 +233,18 @@ const sendOffer = async () => {
         message: "",
       };
 
-      // 3 saniye sonra başarı mesajını gizle
       setTimeout(() => (showSuccess.value = false), 5000);
     }
   } catch (error) {
     alert("Bir hata oluştu. Lütfen WhatsApp üzerinden ulaşınız.");
     console.error(error);
   } finally {
-    loading.value = false; // Yükleniyor durdur
+    loading.value = false;
   }
 };
 </script>
 
 <style scoped>
-/* Select için ok işareti (custom styling) */
 select {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
   background-position: right 0.5rem center;

@@ -14,11 +14,11 @@ useHead({
         "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
         "@id": "https://denizlipandoratemizlik.com.tr",
         "name": "Pandora Temizlik Denizli",
-        "alternateName": "Denizli Pandora Halı Yıkama",
+        "alternateName": "Denizli Pandora Temizlik",
         "url": "https://denizlipandoratemizlik.com.tr",
         "logo": "https://denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.webp",
         "image": "https://denizlipandoratemizlik.com.tr/pandora_temizlik_ana_fotograf.webp",
-        "description": "Denizli Merkezefendi ve Pamukkale'de yerinde koltuk yıkama, halı yıkama, yatak yıkama ve stor perde yıkama hizmeti. Organik şampuanlar ve güçlü vakum teknolojisiyle %100 memnuniyet garantisi.",
+        "description": "Denizli Merkezefendi ve Pamukkale'de yerinde koltuk yıkama, yatak yıkama ve stor perde yıkama hizmeti. Organik şampuanlar ve güçlü vakum teknolojisiyle %100 memnuniyet garantisi.",
         "telephone": "+905530257011",
         "priceRange": "₺₺",
         "address": {
@@ -54,7 +54,6 @@ useHead({
           "name": "Temizlik Hizmetleri",
           "itemListElement": [
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Koltuk Yıkama" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Halı Yıkama" } },
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Yatak Yıkama" } },
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Stor Perde Yıkama" } },
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Yorgan ve Battaniye Yıkama" } }
